@@ -96,7 +96,7 @@ turtle.bye()
 import subprocess
 
 subprocess.Popen(
-    "gswin64c -dBATCH -dNOPAUSE -dEPSCrop -r150 -sDEVICE=png256 -sOutputFile=work.png work.eps",
+    "gswin64c -dBATCH -dNOPAUSE -dEPSCrop -r300 -sDEVICE=png256 -sOutputFile=work.png work.eps",
     shell=False)
 
 a = input(
